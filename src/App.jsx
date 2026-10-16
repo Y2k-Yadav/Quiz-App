@@ -7,7 +7,7 @@ import questions from "./components/Question.json";
 import Button from "./components/Button";
 
 function App() {
-  let timing = 15;
+  let timing = 90;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [time, setTime] = useState(timing);
